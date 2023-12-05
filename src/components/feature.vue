@@ -16,14 +16,14 @@
         v-for="feature of features"
         data-aos="fade-up"
       >
-      <div class="my-5 flex justify-center">
+      <div class="my-5 flex justify-center" data-aos="zoom-in" data-aos-delay="300">
             <img :src="feature.img" alt="description" class="w-20 h-20">
         </div>
-        <h3 class="text-2xl pb-5 font-semibold text-center block">
+        <h3 class="text-2xl pb-5 font-semibold text-center block" data-aos="zoom-in" data-aos-delay="500">
           {{ feature.title }}
         </h3>
     
-        <p class="px-5 text-center">
+        <p class="px-5 text-center" data-aos="fade-up" data-aos-delay="500">
           {{ feature.content }}
         </p>
       </div>

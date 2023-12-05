@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:h-[50dvh] text-font-color ">
+  <div class="text-font-color ">
     <section class="pt-20">
       <p  class="text-3xl lg:px-28 px-5 text-center">
         Ready to experience the future of file sharing? Join PeerVault today and take control of your data like never before. Get started

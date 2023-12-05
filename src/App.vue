@@ -18,4 +18,7 @@ onMounted(()=>{
 </template>
 
 <style scoped>
+*{
+  font-family: 'Inter', sans-serif;
+}
 </style>

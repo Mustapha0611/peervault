@@ -14,7 +14,7 @@
         <h2 class="py-5 font-semibold text-3xl" data-aos="fade-left" data-aos-delay="400">
           Experience a New Era of Privacy, Security, and Freedom in File Sharing
         </h2>
-        <p>
+        <p data-aos="zoom-in" data-aos-delay="300">
           Welcome to Peer vault, where we redefine the way you share and store your files. 
           Say goodbye to traditional centralized servers and embrace the future of decentralized
           file sharing.Your data remains private, secure, and accessible only to those you choose to share it with.
@@ -26,13 +26,13 @@
             data-aos="fade-left"
             data-aos-delay="500"
           >
-            <button class="bg-buttonbg px-5 py-3 rounded-md flex items-center gap-4 text-xl">Get started <img src="@/assets/nxt.png"></button>
+            <button class="bg-buttonbg px-5 py-3 rounded-md flex items-center gap-4 text-xl hover:bg-transparent hover:border-2 hover:border-buttonbg">Get started <img src="@/assets/nxt.png"></button>
           </router-link>
         </div>
       </div>
     </section>
     <section class="flex-1">
-      <div class="md:w-[80%] h-[450px]">
+      <div class="md:w-[80%] h-[450px]" data-aos="zoom-in" data-aos-delay="300">
         <img src="@/assets/share.svg" alt="" class="h-full w-full" />
       </div>
     </section>
