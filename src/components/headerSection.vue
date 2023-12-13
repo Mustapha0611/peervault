@@ -12,7 +12,8 @@
       <span class="px-1 md:text-2xl text-xl">
         <img src="@/assets/logo2.png" class="md:w-auto h-10" alt="" />
       </span>
-      <nav>
+     </div>
+     <nav>
       <ul
         class="flex md:justify-start justify-center md:items-start transition-all items-center bg-secondary md:bg-transparent text-slate-50 md:flex-row flex-col md:relative absolute w-full h-[100dvh] md:h-12 -left-[100%] md:transform-none top-0 md:left-0  z-50"
         :class="{ show: showMenu }"
@@ -24,23 +25,22 @@
           <img src="../assets/close.png" alt="" class="w-full h-full" />
         </span>
         <li class="py-2 px-4">
-         <RouterLink to="/">Home</RouterLink>
+         <RouterLink to="/" @click="toggleMenu">About Us</RouterLink>
         </li>
         <li class="py-2 px-4">
-            <RouterLink to="/">Views</RouterLink>
+            <RouterLink to="/" @click="toggleMenu">Help</RouterLink>
         </li>
-        <li class="py-2 px-4">
-            <RouterLink to="/">Contact</RouterLink>
-        </li>
+        <router-link to="/CreatOrJoin"
+          class="md:flex justify-between md:relative absolute bottom-12 right-[35%] md:right-0 md:top-0 cursor-pointer border-2 text-font-color border-buttonbg px-5 hover:bg-transparent transition-all  py-1 bg-buttonbg rounded-md font-medium"
+         v-show="this.$route.name==='home'" @click="toggleMenu"
+          >
+        Get Started
+       </router-link>
       
       </ul>
     </nav>
-    </div>
-    <router-link to="/"
-          class="md:flex justify-between md:relative absolute bottom-12 right-[35%] md:right-0 md:top-0 cursor-pointer border-2 text-font-color border-buttonbg px-5 hidden  py-1 bg-buttonbg rounded-md font-medium"
-        >
-        Login
-       </router-link>
+
+
     
   </header>
 </template>
@@ -63,10 +63,10 @@ export default {
 };
 </script>
 <style>
-a:focus {
+/* a:focus {
   color: black;
   border-bottom: 3px solid rgb(2, 2, 2);
-}
+} */
 .show {
   transform: translateX(100%);
   transition: 0.3s all;

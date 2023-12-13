@@ -21,12 +21,12 @@
         </p>
         <div class="py-10 flex md:flex-row flex-col gap-3">
           <router-link
-            to="/"
+            to="/CreatOrJoin"
             class="text-white px-3 py-3 text-center text-sm font-semibold transition-all"
             data-aos="fade-left"
             data-aos-delay="500"
           >
-            <button class="bg-buttonbg px-5 py-3 rounded-md flex items-center gap-4 text-xl hover:bg-transparent hover:border-2 hover:border-buttonbg">Get started <img src="@/assets/nxt.png"></button>
+            <button class="bg-buttonbg px-5 py-3 rounded-md flex items-center gap-4 text-xl hover:bg-transparent transition-all border-2 border-buttonbg">Get started <img src="@/assets/nxt.png"></button>
           </router-link>
         </div>
       </div>

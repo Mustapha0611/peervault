@@ -12,7 +12,7 @@
       class="flex flex-col flex-wrap md:flex-row justify-center gap-10 items-center"
     >
       <div
-        class="shadow-2xl md:w-[420px] w-[90%] h-auto p-5 text-font-color rounded-lg hover:scale-105 transition-all overflow-hidden"
+        class="shadow-2xl md:w-[420px] w-[100%] h-auto p-5 text-font-color rounded-lg hover:scale-105 transition-all overflow-hidden"
         v-for="feature of features"
         data-aos="fade-up"
       >

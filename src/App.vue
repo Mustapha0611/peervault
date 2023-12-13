@@ -13,12 +13,23 @@ onMounted(()=>{
 <template>
   <div class="bg-gradient-to-r from-primary to-secondary h-auto">
     <headerSection  class="sticky top-0 z-40"/>
-    <RouterView class="-z-40" />
+    <Transition name="fade">
+      <RouterView class="-z-40" />
+    </Transition>
   </div>
 </template>
 
 <style scoped>
 *{
   font-family: 'Inter', sans-serif;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
