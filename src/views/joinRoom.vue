@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[90dvh] text-font-color">
+    <div class="max-h-[120dvh] text-font-color">
        
       <h2 class="text-center md:py-10 py-5 font-semibold text-2xl">Create A Room</h2>
       <main class="bgmain flex justify-center items-center flex-col md:h-[60dvh] mt-20 md:mt-0 md:mx-20 mx-10 md:px-16 px-5 gap-10 py-10">

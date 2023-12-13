@@ -5,13 +5,13 @@
     <section class="flex-1 lg:px-20 md:px-10">
       <div class="text-font-color">
         <h1
-          class="font-bold py-2 md:py-0 lg:text-5xl text-4xl leading-[1.5] lg:leading-normal"
+          class="font-bold py-2 md:py-0 lg:text-5xl md:text-4xl text-2xl leading-[1.5] lg:leading-normal"
           data-aos="fade-up"
           data-aos-delay="300"
         >
           Empower Your Data with Decentralized File Sharing
         </h1>
-        <h2 class="py-5 font-semibold text-3xl" data-aos="fade-left" data-aos-delay="400">
+        <h2 class="py-5 font-semibold md:text-3xl text-xl" data-aos="fade-left" data-aos-delay="400">
           Experience a New Era of Privacy, Security, and Freedom in File Sharing
         </h2>
         <p data-aos="zoom-in" data-aos-delay="300">

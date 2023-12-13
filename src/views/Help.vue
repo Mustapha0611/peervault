@@ -1,6 +1,6 @@
 <template>
     <div class="help text-font-color md:h-[90vh] h-auto">
-      <h1 class="text-center font-semibold text-3xl py-6">About Us</h1>
+      <h1 class="text-center font-semibold text-3xl py-6">Help</h1>
       <main class=" px-10 md:px-20  pb-10"  >
         <section class="flex-1">
           <p class="text-center text-3xl">

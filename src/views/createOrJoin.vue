@@ -1,5 +1,5 @@
 <template>
-    <div class=" h-auto md:h-[90dvh] flex flex-col md:flex-row  md:px-20 px-10 justify-between gap-10 text-font-color">
+    <div class=" h-auto md:max-h-[100vh] flex flex-col md:flex-row  md:px-20 px-10 justify-between gap-10 text-font-color">
         
             <section class="flex flex-col items-center flex-1">
                 <h3 class="py-5 font-semibold text-2xl">Create A Room</h3>

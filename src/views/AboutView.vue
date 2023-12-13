@@ -1,7 +1,7 @@
 <template>
-  <div class="about text-font-color md:h-[90vh] h-auto">
+  <div class="about text-font-color md:max-h-[150vh] h-auto">
     <h1 class="text-center font-semibold text-3xl py-6">About Us</h1>
-    <main class="flex gap-10 px-10 md:px-20 items-center py-10 md:flex-row flex-col"  >
+    <main class="flex gap-10 px-10 md:px-20 items-center py-5 md:flex-row flex-col-reverse"  >
       <section class="flex-1">
         <p>
           At PeerVault, we believe in a future where data belongs to you, not to
