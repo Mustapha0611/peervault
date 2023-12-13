@@ -9,9 +9,10 @@
       <img src="@/assets/menu.png" alt="" />
     </span>
     <div class="logo flex">
-      <span class="px-1 md:text-2xl text-xl">
+      <router-link to="/"><span class="">
         <img src="@/assets/logo2.png" class="md:w-auto h-10" alt="" />
-      </span>
+      </span></router-link>
+      
      </div>
      <nav>
       <ul
