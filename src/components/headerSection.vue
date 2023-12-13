@@ -26,10 +26,10 @@
           <img src="../assets/close.png" alt="" class="w-full h-full" />
         </span>
         <li class="py-2 px-4">
-         <RouterLink to="/" @click="toggleMenu">About Us</RouterLink>
+         <RouterLink to="/About" @click="toggleMenu">About Us</RouterLink>
         </li>
         <li class="py-2 px-4">
-            <RouterLink to="/" @click="toggleMenu">Help</RouterLink>
+            <RouterLink to="/Help" @click="toggleMenu">Help</RouterLink>
         </li>
         <router-link to="/CreatOrJoin"
           class="md:flex justify-between md:relative absolute bottom-12 right-[35%] md:right-0 md:top-0 cursor-pointer border-2 text-font-color border-buttonbg px-5 hover:bg-transparent transition-all  py-1 bg-buttonbg rounded-md font-medium"

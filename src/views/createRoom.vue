@@ -23,9 +23,9 @@
     <div class="flex justify-center py-6">
         <button @click="validateForm"  class="bg-buttonbg px-5 py-3 rounded-md flex items-center gap-4 text-xl hover:bg-transparent transition-all border-2 border-buttonbg">Create A Room</button>
     </div>
-    <Toast />
+    <!-- <Toast /> -->
     <div
-      class="modal flex items-center justify-center absolute top-0 left-0 h-[100dvh] w-full"
+      class="modal flex items-center justify-center absolute bottom-0 right-0  h-[100vh] w-full"
       v-if="showModal"
     >
   
