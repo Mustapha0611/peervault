@@ -14,7 +14,7 @@
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
-  "type": "module",
+  
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.4.0",
     "autoprefixer": "^10.4.16",
